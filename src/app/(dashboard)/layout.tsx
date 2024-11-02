@@ -11,7 +11,7 @@ export default function DashboardLayout({
     return (
         <div className="flex">
             {/* left */}
-            <div className="w-[15%] md:w-[10%] lg:w-[15%] xl:w-[18%] bg-gray-100">
+            <div className="w-[15%] md:w-[10%] lg:w-[15%] xl:w-[18%] bg-gray-100 flex flex-col">
                 {/* lOGO */}
                 <div className="w-full justify-center flex">
                     <Link href='/'>
