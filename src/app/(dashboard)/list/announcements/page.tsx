@@ -74,7 +74,7 @@ const EventsListPage = () => {
                         <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
                             <Image src="/filter.png" alt="" width={14} height={14} />
                         </button>
-                        <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
+                        <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">    
                             <Image src="/sort.png" alt="" width={14} height={14} />
                         </button>
                         {role === "admin" && (
